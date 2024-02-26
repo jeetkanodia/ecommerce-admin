@@ -1,5 +1,9 @@
-export default function Home() {
-  return <p>Admin Dashbord</p>;
-}
+import { Button } from "@/components/ui/button";
 
-// 24:14
+export default function Home() {
+  return (
+    <div className="p-4">
+      <Button>Click me</Button>
+    </div>
+  );
+}
